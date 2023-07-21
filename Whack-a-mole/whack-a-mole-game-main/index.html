@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>whack-a-mole</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1><I>whack-a-mole</I></h1>
+        <img src="mole.png" id="mole">
+        <img src="dirt.svg" id="mud">
+        <!-- <img src="background.png" id="background"  onclick="notclicked()">  -->
+    </header>
+    <main>
+        <button type="button" onclick="start()" id="start">START</button>
+        <!-- <button type="button" onclick="stop()" id="stop">STOP</button> -->
+        <img src="dirt.svg" id="dirt1" class="dirt" onclick="notclicked()">
+        <img src="dirt.svg" id="dirt2" class="dirt" onclick="notclicked()">
+        <img src="dirt.svg" id="dirt3" class="dirt" onclick="notclicked()">
+        <img src="dirt.svg" id="dirt4" class="dirt" onclick="notclicked()">
+        <img src="dirt.svg" id="dirt5" class="dirt" onclick="notclicked()">
+        <img src="dirt.svg" id="dirt6" class="dirt" onclick="notclicked()">
+        <img src="dirt.svg" id="dirt7" class="dirt" onclick="notclicked()">
+        <img src="dirt.svg" id="dirt8" class="dirt" onclick="notclicked()">
+        <img src="dirt.svg" id="dirt9" class="dirt" onclick="notclicked()">
+
+
+        <span class="sou" id="sou1"><img src="mole.png" id="mole1" class="mole"
+                onclick="clicked()"></span>
+        <span class="sou" id="sou2"><img src="mole.png" id="mole2" class="mole"
+                onclick="clicked()"></span>
+        <span class="sou" id="sou3"><img src="mole.png" id="mole3" class="mole"
+                onclick="clicked()"></span>
+        <span class="sou" id="sou4"><img src="mole.png" id="mole4" class="mole"
+                onclick="clicked()"></span>
+        <span class="sou" id="sou5"><img src="mole.png" id="mole5" class="mole"
+                onclick="clicked()"></span>
+        <span class="sou" id="sou6"><img src="mole.png" id="mole6" class="mole"
+                onclick="clicked()"></span>
+        <span class="sou" id="sou7"><img src="mole.png" id="mole7" class="mole"
+                onclick="clicked()"></span>
+        <span class="sou" id="sou8"><img src="mole.png" id="mole8" class="mole"
+                onclick="clicked()"></span>
+        <span class="sou" id="sou9"><img src="mole.png" id="mole9" class="mole"
+                onclick="clicked()"></span>
+        
+        <div class="cursor-cur" >
+            <img src="/image/hammer-removebg-preview.png" id="hammer">
+        </div>
+        <div id="dey">
+            <h1><i>GAME OVER</i></h1>
+        </div>
+        <span id="currentPoint1">YOUR POINT :-</span><span id="currentPoint">0</span>
+        <span id="misshit1">MISS-HIT :-</span><span id="misshit">0</span>
+        <script src="script.js"></script>
+    </main>
+    <article></article>
+    <footer></footer>
+</body>
+
+</html>

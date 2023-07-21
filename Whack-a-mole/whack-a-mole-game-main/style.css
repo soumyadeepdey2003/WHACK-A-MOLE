@@ -1,0 +1,247 @@
+/* body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: inherit;
+    z-index: 1;
+    cursor: url("/image/hammer-removebg-preview.png"), pointer; 
+
+} */
+
+ /* #background { 
+ background-repeat: no-repeat; 
+ z-index: 0;
+ background-size: 100%; 
+ background-position: inherit; 
+ }  */
+
+
+ body{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+}
+
+
+h1 {
+    color: rgb(212, 109, 121);
+    text-align: center;
+    font-size: 87px;
+    font-weight: bolder;
+    margin-top: 0%;
+}
+
+#mole {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+
+#mud {
+    position: fixed;
+    top: 42%;
+    left: 39%;
+    width: 550px;
+}
+
+#start {
+    height: 70px;
+    width: 180px;
+    background-color: rgb(146, 205, 218);
+    color: rgb(29, 138, 76);
+    font-size: xx-large;
+    font-weight: bold;
+    border: rgb(79, 64, 34) solid 4px;
+    border-radius: 40px;
+    position: absolute;
+    top: 85%;
+    left: 43%;
+    cursor: pointer;
+}
+
+/* #stop { */
+/* height: 70px; */
+/* width: 180px; */
+/* background-color: rgb(92, 109, 170); */
+/* color: rgb(199, 35, 46); */
+/* font-size: xx-large; */
+/* font-weight: bold; */
+/* border: rgb(56, 46, 25) solid 4px; */
+/* border-radius: 40px; */
+/* position: absolute; */
+/* top: 85%; */
+/* left: 55%; */
+/* cursor: pointer; */
+/* } */
+
+.dirt {
+    visibility: hidden;
+    position: absolute;
+    height: 90px;
+    z-index: 2;
+    z-index: 1;
+
+}
+
+#dirt1 {
+    top: 28%;
+    left: 22%;
+}
+
+#dirt2 {
+    top: 53%;
+    left: 22%;
+}
+
+#dirt3 {
+    top: 78%;
+    left: 22%;
+}
+
+#dirt4 {
+    top: 28%;
+    left: 47%;
+}
+
+#dirt5 {
+    top: 53%;
+    left: 47%;
+}
+
+#dirt6 {
+    top: 78%;
+    left: 47%;
+}
+
+#dirt7 {
+    top: 28%;
+    left: 72%;
+}
+
+#dirt8 {
+    top: 53%;
+    left: 72%;
+}
+
+#dirt9 {
+    top: 78%;
+    left: 72%;
+}
+
+#currentPoint1,
+#currentPoint {
+    color: rgb(44, 133, 81);
+    font-size: x-large;
+    font-weight: bolder;
+    padding-left: 20px;
+    left: 25%;
+    visibility: hidden;
+}
+
+#misshit1,
+#misshit {
+    color: rgb(224, 86, 62);
+    font-size: x-large;
+    font-weight: bolder;
+    padding-left: 15px;
+    left: 10%;
+    visibility: hidden;
+}
+
+
+
+.mole {
+    visibility: hidden;
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    z-index: 3;
+    z-index: 1;
+
+
+}
+
+#mole1,
+#sou1 {
+    top: 25%;
+    left: 25%;
+}
+
+#mole2,
+#sou2 {
+    top: 50%;
+    left: 25%;
+}
+
+#mole3,
+#sou3 {
+    top: 75%;
+    left: 25%;
+}
+
+#mole4,
+#sou4 {
+    top: 25%;
+    left: 50%;
+}
+
+#mole5,
+#sou5 {
+    top: 50%;
+    left: 50%;
+}
+
+#mole6,
+#sou6 {
+    top: 75%;
+    left: 50%;
+}
+
+#mole7,
+#sou7 {
+    top: 25%;
+    left: 75%;
+}
+
+#mole8,
+#sou8 {
+    top: 50%;
+    left: 75%;
+}
+
+#mole9,
+#sou9 {
+    top: 75%;
+    left: 75%;
+}
+
+.sou {
+    padding: 100px;
+    background-color: rgb(187, 141, 86);
+    visibility: hidden;
+}
+
+#dey {
+    z-index: 4;
+    color: rgb(212, 109, 121);
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    margin-top: 0%;
+    visibility: hidden;
+    top: 60%;
+
+}
+
+/* #hammer {
+    position: absolute;
+    visibility: hidden;
+    z-index: 5;
+    height: 300px;
+}
+
+.cursor-cur {
+    height: 300px;
+    position: absolute;
+} */
